@@ -4,12 +4,13 @@
   "description": "익스프레스로 만드는 SNS 서비스",
   "main": "app.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production PORT=80 pm2 start app.js -i 0",
+    "start": "cross-env NODE_ENV=production PORT=80 pm2 start app.js",
     "dev": "nodemon app"
   },
   "author": "DevLife",
   "license": "MIT",
   "dependencies": {
+    "3": "^2.1.0",
     "bcrypt": "^3.0.7",
     "connect-flash": "^0.1.1",
     "connect-redis": "^4.0.4",
